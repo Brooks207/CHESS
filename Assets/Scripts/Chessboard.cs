@@ -35,7 +35,7 @@ public class Chessboard : MonoBehaviour
     //Logic
     private ChessPiece[,] chessPieces;
     private ChessPiece currentlyDragging;
-    private const int TILE_COUNT_X = 9;
+    private const int TILE_COUNT_X = 8;
     private const int TILE_COUNT_Y = 8;
     private GameObject[,] tiles;
     private Camera currentCamera;
